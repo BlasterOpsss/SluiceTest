@@ -1,0 +1,12 @@
+target/
+node_modules/
+dist/
+.anchor/
+test-ledger/
+.env
+.env.*
+*-keypair.json
+id.json
+*.keypair.json
+web/dist/
+agent-state.json

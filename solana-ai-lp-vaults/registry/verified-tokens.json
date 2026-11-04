@@ -1,0 +1,16 @@
+{
+  "_note": "Allowlist of verified mints. Update only via multisig-reviewed PR.",
+  "criteria": {
+    "mintAuthorityRevoked": true,
+    "freezeAuthorityRevoked": true,
+    "jupiterVerified": true,
+    "minAgeDays": 30,
+    "minLiquidityUsd": 500000,
+    "min24hVolumeUsd": 100000,
+    "maxTop10HolderPct": 60
+  },
+  "tokens": [
+    { "symbol": "SOL", "mint": "So11111111111111111111111111111111111111112" },
+    { "symbol": "USDC", "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v" }
+  ]
+}

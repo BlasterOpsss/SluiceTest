@@ -1,0 +1,19 @@
+{
+  "name": "scripts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:orca": "tsx orca-devnet-test.ts",
+    "swap": "tsx swap.ts"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@orca-so/common-sdk": "^0.7.1",
+    "@orca-so/whirlpools-sdk": "*",
+    "@solana/spl-token": "^0.4.9",
+    "@solana/web3.js": "^1.98.0",
+    "decimal.js": "^10.6.0",
+    "tsx": "^4.19.0"
+  }
+}
